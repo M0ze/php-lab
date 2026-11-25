@@ -1,21 +1,8 @@
-# contact-crud
+# vendor dependencies
+vendor/
 
-PHP contact form. Teaches superglobals, PDO prepared statements, and
-graceful error pages.
+# composer lock (optional)
+composer.lock
 
-## How to run
-
-    cd contact-crud
-    composer install
-    php -S localhost:8000 -t public
-
-## Files
-
-    public/index.php      front controller
-    src/Contact.php       model (PDO, prepared statements)
-    composer.json         dependencies + PSR-4 autoload
-
-## Run
-
-    composer install
-    php -S localhost:8000 -t public
+# env
+.env
